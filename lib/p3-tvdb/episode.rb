@@ -7,8 +7,8 @@ module P3
             def initialize(client, options={})
                 @client = client
                 @id = options["id"]
-                @season_number = options["SeasonNumber"]
-                @number = options["EpisodeNumber"]
+                @season_number = options["SeasonNumber"].to_i
+                @number = options["EpisodeNumber"].to_i
                 @name = options["EpisodeName"]
                 @overview = options["Overview"]
                 @thumb = "http://thetvdb.com/banners/" + options["filename"] if options["filename"].to_s != ""
