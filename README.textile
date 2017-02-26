@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/p3-tvdb.svg)](http://badge.fury.io/rb/p3-tvdb)
+
 h1. p3-tvdb
 
 h2. What?
